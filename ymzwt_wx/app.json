@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",  
+    "pages/logs/logs",
+    "pages/dome01/dome01",
+    "pages/ucenter/index/index",
+    "pages/news/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "政企直通车",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    
+    "list": [{
+      "pagePath": "pages/news/index/index",
+      "text": "政策咨询",
+      "iconPath": "pages/image/dl.png",
+      "selectedIconPath": "pages/image/dl.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "企业服务",
+      "iconPath": "pages/image/sp.png",
+      "selectedIconPath": "pages/image/sp.png"
+    },
+    {
+        "pagePath": "pages/index/index",
+        "text": "互动交流",
+        "iconPath": "pages/image/index.png",
+        "selectedIconPath": "pages/image/index.png"
+    },
+    {
+      "pagePath": "pages/ucenter/index/index",
+      "text": "个人中心",
+      "iconPath": "pages/image/ic_menu_me_nor.png",
+      "selectedIconPath": "pages/image/ic_menu_me_pressed.png"
+    }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
